@@ -17,7 +17,7 @@ The current repository looks like this:
 .
 ├── README.md
 └── src/
-    ├── datasets/                 # per-dataset READMEs (no raw CSVs tracked here)
+    ├── datasets/                 # per-dataset READMEs
     ├── logs/                     # logs of the SR and baseline runs
     ├── plots/                    # PDF/PNG plots for relevance and regression
     ├── results/                  # CSVs produced by the experiment stages
@@ -76,7 +76,7 @@ The current repository looks like this:
 
 To keep the main README short, the complementary information from the paper are in separate files:
 
-- [Datasets used in this study](src/docs/datasets.md)
-- [Hyperparameter space for the ML models](src/docs/ml-hyperparams.md)
-- [Model descriptors and complexity (proc_units, train/inf complexity, encodings)](src/docs/model-descriptors.md)
-- [Hyperparameter space for the black-box regressors](src/docs/baselines-hyperparams.md)
+- [APPENDIX A: Datasets used in this study](src/docs/datasets.md)
+- [APPENDIX B: Hyperparameter space for the ML models](src/docs/ml-hyperparams.md)
+- [APPENDIX C: Model descriptors and complexity (proc_units, train/inf complexity, encodings)](src/docs/model-descriptors.md)
+- [APPENDIX D: Hyperparameter space for the black-box regressors](src/docs/black-box-reg-hyperparams.md)
