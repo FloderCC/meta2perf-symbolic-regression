@@ -1,5 +1,5 @@
 """
-Script to evaluate base models model for MCC inference
+Script to evaluate the black-box regressors with the normalized meta-dataset
 """
 
 import logging
@@ -76,8 +76,6 @@ df_meta = df_meta[df_meta['MCC'] > 0]
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
 df_meta.iloc[:, :-1] = scaler.fit_transform(df_meta.iloc[:, :-1])
-
-
 
 
 # Defining the regression score

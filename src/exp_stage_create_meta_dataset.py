@@ -3,7 +3,6 @@ Script to run the experiment.
 """
 import ast
 import math
-import numpy as np
 import pandas as pd
 
 dataset_description_header= ["class_ent", "eq_num_attr", "gravity", "inst_to_attr",

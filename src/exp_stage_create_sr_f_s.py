@@ -1,5 +1,5 @@
 """
-Script to find a symbolic regression model for MCC inference
+Script to find a symbolic regression model for MCC inference (normalized meta-dataset)
 """
 
 import logging
@@ -71,9 +71,6 @@ df_meta = df_meta[df_meta['MCC'] > 0]
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
 df_meta.iloc[:, :-1] = scaler.fit_transform(df_meta.iloc[:, :-1])
-
-
-
 
 
 # Defining the regression score

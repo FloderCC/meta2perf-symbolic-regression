@@ -1,7 +1,8 @@
-# SHAP feature relevance bar chart with two flat colors (NO percent normalization)
-# - Dataset features -> #e64042
-# - Model features   -> #377eb8
-# Sign/magnitude is shown only by bar length, not by color intensity.
+"""
+SHAP feature relevance bar chart with two flat colors (NO percent normalization)
+ - Dataset features -> #e64042
+ - Model features   -> #377eb8
+"""
 
 import numpy as np
 import pandas as pd

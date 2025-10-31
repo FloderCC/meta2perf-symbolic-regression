@@ -1,5 +1,5 @@
 """
-Script to evaluate base models model for MCC inference
+Script to evaluate the black-box regressors
 """
 
 import logging

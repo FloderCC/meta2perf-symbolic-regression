@@ -10,12 +10,12 @@
 | 6  | IoT-DNL | `normality` | Kaggle | 477,426 | 13 |
 | 7  | NSL-KDD | `class` | IEEE DataPort | 148,517 | 41 |
 | 8  | RT-IoT2022 | `Attack_type` | Kaggle | 123,117 | 83 |
-| 9  | QoS-QoE | `StallLabel` | Research publication | 69,129 | 47 |
+| 9  | QoS-QoE | `StallLabel` | [ICC 2018 paper](https://doi.org/10.1109/ICC.2018.8422609) | 69,129 | 47 |
 | 10 | DeepSlice | `slice Type` | Kaggle | 63,167 | 8 |
 | 11 | Network Slicing Recognition | `slice Type` | Kaggle | 31,583 | 16 |
 | 12 | IoT-APD | `label` | Kaggle | 10,845 | 15 |
 | 13 | ASNM-CDX-2009 | `label_2` | IEEE DataPort | 5,771 | 874 |
-| 14 | User Network Activities Classification | `output` | Research publication | 389 | 21 |
+| 14 | User Network Activities Classification | `output` | [Chapter in CCIS 2024](https://doi.org/10.1007/978-3-031-51135-6_11) | 389 | 21 |
 | 15 | KPI-KQI | `Service` | Zenodo | 165 | 13 |
 | 16 | CDC Diabetes Health Indicators | `Diabetes_binary` | UCI ML Repository | 253,680 | 21 |
 | 17 | Rain in Australia | `RainTomorrow` | Kaggle | 142,193 | 22 |
